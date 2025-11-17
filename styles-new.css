@@ -3162,3 +3162,13 @@ img[width][height] {
   height: 18px;
   display: inline-block;
 }
+/* Fix for Deprecated H1 Warning */
+section h1,
+article h1,
+aside h1,
+nav h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+}
